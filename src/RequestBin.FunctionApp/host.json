@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "RequestBin.FunctionApp.RequestBinStarter": "Information"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "extensions": {
+    "http": {
+      "routePrefix": ""
+    },
+    "durableTask": {
+      "hubName": "RequestBinHub",
+      "storageProvider": {
+        "connectionStringName": "AzureWebJobsStorage"
+      }
+    }
+  }
+}
