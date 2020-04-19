@@ -43,10 +43,10 @@ The response might look like, with the HTTP status code of `201 (Created)`:
 
 ```json
 {
-  "bin": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-  "history": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-  "reset": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-  "purge": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+  "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
+  "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
+  "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
+  "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
 }
 ```
 
@@ -63,10 +63,10 @@ The response might look like, with the HTTP status code of `202 (Accepted)`:
 
 ```json
 {
-  "bin": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-  "history": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-  "reset": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-  "purge": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+  "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
+  "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
+  "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
+  "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
 }
 ```
 
@@ -96,10 +96,10 @@ The response might look like, with the HTTP status code of `200 (OK)`:
     }
   ],
   "navigation": {
-    "bin": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-    "history": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-    "reset": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-    "purge": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+    "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
+    "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
+    "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
+    "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
   }
 }
 ```
@@ -117,10 +117,10 @@ The response might look like, with the HTTP status code of `202 (Accepted)`:
 
 ```json
 {
-  "bin": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-  "history": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-  "reset": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-  "purge": "https://fncapp-requestbin-krc.azurewebsites.net/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+  "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
+  "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
+  "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
+  "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
 }
 ```
 
