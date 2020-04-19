@@ -43,10 +43,10 @@ The response might look like, with the HTTP status code of `201 (Created)`:
 
 ```json
 {
-  "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-  "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-  "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-  "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+  "bin": "http://localhost:7071/bins/<bin-id>",
+  "history": "http://localhost:7071/bins/<bin-id>/history",
+  "reset": "http://localhost:7071/bins/<bin-id>/reset",
+  "purge": "http://localhost:7071/bins/<bin-id>/purge"
 }
 ```
 
@@ -63,10 +63,10 @@ The response might look like, with the HTTP status code of `202 (Accepted)`:
 
 ```json
 {
-  "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-  "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-  "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-  "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+  "bin": "http://localhost:7071/bins/<bin-id>",
+  "history": "http://localhost:7071/bins/<bin-id>/history",
+  "reset": "http://localhost:7071/bins/<bin-id>/reset",
+  "purge": "http://localhost:7071/bins/<bin-id>/purge"
 }
 ```
 
@@ -96,10 +96,10 @@ The response might look like, with the HTTP status code of `200 (OK)`:
     }
   ],
   "navigation": {
-    "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-    "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-    "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-    "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+    "bin": "http://localhost:7071/bins/<bin-id>",
+    "history": "http://localhost:7071/bins/<bin-id>/history",
+    "reset": "http://localhost:7071/bins/<bin-id>/reset",
+    "purge": "http://localhost:7071/bins/<bin-id>/purge"
   }
 }
 ```
@@ -117,10 +117,10 @@ The response might look like, with the HTTP status code of `202 (Accepted)`:
 
 ```json
 {
-  "bin": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646",
-  "history": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/history",
-  "reset": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/reset",
-  "purge": "http://localhost:7071/bins/b2b2ff35-c303-46dd-864a-0a2353de3646/purge"
+  "bin": "http://localhost:7071/bins/<bin-id>",
+  "history": "http://localhost:7071/bins/<bin-id>/history",
+  "reset": "http://localhost:7071/bins/<bin-id>/reset",
+  "purge": "http://localhost:7071/bins/<bin-id>/purge"
 }
 ```
 
